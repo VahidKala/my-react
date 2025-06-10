@@ -1,0 +1,44 @@
+li{
+    list-style: none;
+}
+.liClass{
+    border-bottom: 1px solid rgb(116, 114, 114);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*  خط پایین میاد بین المان ها اسپیس قرار میده */
+    justify-content: space-between;
+}
+.butt1{
+    color: black;
+    padding: 0.2rem 1rem;
+    font-size: 1.6rem;
+    border: 1px solid rgb(116, 114, 114);
+    border-radius: 10px;
+    background-color: rgb(239, 239, 240);
+}
+.butt2{
+    color: black;
+    padding: 0.2rem 1.15rem;
+    font-size: 1.6rem;
+    margin-left: 0.2rem;
+    border: 1px solid rgb(116, 114, 114);
+    border-radius: 10px;
+    background-color: rgb(239, 239, 240);
+
+}
+.liClass h3, h4{
+    margin: 0.1rem;
+}
+.liClass div div{
+    background-color: rgb(245, 247, 247);
+    padding: 0.1rem 0.5rem;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0.3rem 0rem;
+    border: 1px solid rgb(182, 180, 180);
+}
+.cH4{
+    display: flex;
+    flex-direction: column;
+}

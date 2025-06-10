@@ -1,0 +1,19 @@
+.fatherEl{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(158, 55, 7);
+    padding: 1rem;
+    align-items: center;
+    justify-content: left; 
+    position:fixed;
+    top:0;
+}
+.ReactMeals{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 40vw;
+    text-align: left;
+    padding-left: 10vw;
+}

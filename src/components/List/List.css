@@ -1,0 +1,45 @@
+.foodType{
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 35vw;
+}
+.amount{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.amount input{
+    width: 2.6rem;
+    font-size: 1rem;
+}
+.amount div{
+    width: fit-content;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+li button{
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    border: none;
+    background-color: rgb(153, 61, 8);
+    border-radius: 15px;
+    padding: 0.5rem 2rem;
+}
+li button:active{
+    background-color: rgb(226, 169, 47);
+}
+.dolar{
+    font-weight: bold;
+    color: rgb(196, 81, 4);
+}
+li div:first-of-type{
+    text-align: left;
+}
+.fatherAmount{
+    text-align: right;
+}
+.option{
+    font-size: 0.9rem;
+    color: rgb(54, 54, 53);
+}
